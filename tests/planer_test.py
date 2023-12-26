@@ -1,9 +1,12 @@
 import unittest
-from products_deploy.config_class import planner, future_list
+import sys
+import os
+
+from src.config_class import Planner
 
 class test_config_class(unittest.TestCase):
     def setUp(self) -> None:
-        self.params = planner()
+        self.params = Planner()
 
 
     def test_simple_variable(self):
