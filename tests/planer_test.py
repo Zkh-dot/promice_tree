@@ -1,10 +1,7 @@
 import unittest
-import sys
-import os
-
 from src.config_class import Planner
 
-class test_config_class(unittest.TestCase):
+class test_config_class(unittest.TestCase):        
     def setUp(self) -> None:
         self.params = Planner()
 
