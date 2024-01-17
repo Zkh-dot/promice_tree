@@ -1,5 +1,5 @@
 import unittest
-from ..src.config_class import Planner
+from promice_tree.config_class import Planner
 
 class test_config_class(unittest.TestCase):        
     def setUp(self) -> None:
